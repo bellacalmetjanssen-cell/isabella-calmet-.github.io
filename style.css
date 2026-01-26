@@ -1,65 +1,65 @@
-/* General Body Styles */
+/* Estilos Base */
 body {
-    font-family: Georgia, serif;
-    margin: 40px;
-    background-color: #fafafa;
-    color: #222;
-    line-height: 1.6;
+    font-family: 'Georgia', serif; /* Fuente con serifa para mejor lectura de textos largos */
+    line-height: 1.8;
+    color: #2c3e50;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fdfdfd;
 }
 
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 40px;
+/* Encabezados */
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
 }
 
-header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.2rem;
-}
+h1 { font-size: 2.5rem; text-align: center; border-bottom: none; }
 
-header h2 {
-    font-size: 1.2rem;
-    color: #555;
-    font-weight: normal;
-}
-
-/* Post List */
+/* Estilos para la clase post-list (lo que solicitaste) */
 .post-list {
     list-style: none;
     padding: 0;
+    margin-top: 30px;
 }
 
 .post-list li {
-    background-color: #fff;
-    margin-bottom: 15px;
-    padding: 15px 20px;
+    background: white;
+    border: 1px solid #e1e1e1;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
+/* Efecto al pasar el mouse sobre un post de la lista */
 .post-list li:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-color: #3498db;
 }
 
-/* Links */
-.post-list a {
+/* Estilos de enlaces */
+a {
+    color: #3498db;
     text-decoration: none;
-    color: #333;
     font-weight: bold;
-    font-size: 1.1rem;
 }
 
-.post-list a:hover {
+a:hover {
     text-decoration: underline;
+    color: #2980b9;
 }
 
-/* Date */
-.post-list .date {
-    display: block;
+/* Pie de página */
+footer {
+    margin-top: 60px;
+    text-align: center;
     font-size: 0.9rem;
-    color: #777;
-    margin-top: 5px;
+    color: #95a5a6;
+    font-style: italic;
 }
