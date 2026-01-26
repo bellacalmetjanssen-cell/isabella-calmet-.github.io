@@ -1,37 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dna modification – ENGL 170 Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blog - Isabella Calmet</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
+        h1 { color: #2c3e50; }
+        .post-list {
+            list-style: none;
+            padding: 0;
+        }
+        .post-item {
+            background: #f9f9f9;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            transition: transform 0.2s;
+        }
+        .post-item:hover {
+            transform: translateX(5px);
+            background: #f1f1f1;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
+
     <header>
-        <h1>dna modification</h1>
-        <h2>Blog by Isabella Calmet</h2>
+        <h1>My blog</h1>
+        <p>Bienvenido a mi espacio de reflexión para el curso <strong>ENGL 170</strong>.</p>
+        <p><em>Por: Isabella Calmet</em></p>
     </header>
 
     <main>
-        <h3>Posts</h3>
-
+        <h2>Publicaciones Recientes</h2>
         <ul class="post-list">
-            <li>
-                <a href="post1.html">Sample Post Title 1</a>
-                <span class="date">January 20, 2026</span>
+            <li class="post-item">
+                <strong>Publicación 1:</strong> <a href="#">Título de tu primer ensayo o reflexión</a>
             </li>
-
-            <li>
-                <a href="post2.html">Sample Post Title 2</a>
-                <span class="date">January 22, 2026</span>
+            <li class="post-item">
+                <strong>Publicación 2:</strong> <a href="#">Análisis literario semanal</a>
             </li>
-
-            <li>
-                <a href="post3.html">Sample Post Title 3</a>
-                <span class="date">January 25, 2026</span>
+            <li class="post-item">
+                <strong>Publicación 3:</strong> <a href="#">Notas sobre retórica y composición</a>
             </li>
         </ul>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Isabella Calmet - ENGL 170</p>
+    </footer>
+
 </body>
 </html>
