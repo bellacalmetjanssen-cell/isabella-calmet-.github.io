@@ -1,73 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My blog - Isabella Calmet</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        header {
-            border-bottom: 2px solid #eee;
-            margin-bottom: 30px;
-            padding-bottom: 10px;
-        }
-        h1 { color: #2c3e50; }
-        .post-list {
-            list-style: none;
-            padding: 0;
-        }
-        .post-item {
-            background: #f9f9f9;
-            margin-bottom: 15px;
-            padding: 15px;
-            border-left: 5px solid #3498db;
-            transition: transform 0.2s;
-        }
-        .post-item:hover {
-            transform: translateX(5px);
-            background: #f1f1f1;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
-            text-align: center;
-        }
-    </style>
+    <title>Isabella's Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1>My blog</h1>
-        <p>Bienvenido a mi espacio de reflexión para el curso <strong>ENGL 170</strong>.</p>
-        <p><em>Por: Isabella Calmet</em></p>
+        <h1>Isabella's Blog</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a>
+        </nav>
     </header>
 
     <main>
-        <h2>Publicaciones Recientes</h2>
         <ul class="post-list">
-            <li class="post-item">
-                <strong>Publicación 1:</strong> <a href="#">Título de tu primer ensayo o reflexión</a>
+            <li>
+                <a href="human-judgment-data.html">Responding to "The Romanticized Ceiling": Why Data Still Needs Human Judgment</a>
+                <span class="date">January 26, 2026</span>
             </li>
-            <li class="post-item">
-                <strong>Publicación 2:</strong> <a href="#">Análisis literario semanal</a>
-            </li>
-            <li class="post-item">
-                <strong>Publicación 3:</strong> <a href="#">Notas sobre retórica y composición</a>
-            </li>
-        </ul>
+            </ul>
     </main>
 
     <footer>
-        <p>&copy; 2026 Isabella Calmet - ENGL 170</p>
+        <p>&copy; 2026 Isabella Calmet</p>
     </footer>
-
 </body>
 </html>
